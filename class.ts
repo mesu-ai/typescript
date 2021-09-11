@@ -8,7 +8,7 @@ class car {
 
     }
 
-    getCarPrice(tax: number) {
+    getCarPrice(tax: number): number {
         const totalTax = this.price * tax / 100;
         const totalPrice = this.price + totalTax;
         return totalPrice;
