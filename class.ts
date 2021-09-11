@@ -15,6 +15,7 @@ class car {
     }
 }
 
+
 const carInfo = new car('toyota', 2000000);
 const price = carInfo.getCarPrice(15);
 console.log('car price: ', price);
